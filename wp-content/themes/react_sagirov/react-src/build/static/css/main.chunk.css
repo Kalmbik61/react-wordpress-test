@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(/textTasks/wordpress-savigor/wp-content/themes/react_sagirov/static/media/fon.18a755c3.png) center no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.wrapp_header h1,
+.wrapp_header p {
+  background: linear-gradient(to right, rgba(255, 255, 255, 1), #ff3700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: table;
+  font-weight: 450;
+}
+
+.wrapp_header h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.wrapp_btn {
+  margin-top: 5em;
+}
+
+.btn {
+  color: #fff;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    to right top,
+    #1d7af3 10%,
+    transparent 30%,
+    transparent 70%,
+    #003dc0 90%
+  );
+  border-image-slice: 1;
+}
+.btn:hover {
+  color: #1d7af3;
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(170, 170, 170, 0.1)
+  );
+}
+.big_text {
+  color: white;
+  font-weight: 700;
+  margin: 0;
+}
+
+.big_text span {
+  font-size: small;
+}
+
+.wrapper_right {
+  color: grey;
+}
+
+div p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.info_text {
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(102, 102, 102, 0.1)
+  );
+  margin: 5px;
+  width: 12em;
+  height: 9em;
+  cursor: pointer;
+}
+
+.info_text:hover,
+.info_text:active {
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(170, 170, 170, 0.1)
+  );
+}
+
+@media (max-width: 800px) {
+  .display-4 {
+    font-size: 40px;
+  }
+  .info_text {
+    width: 10em;
+    height: 7em;
+  }
+  .row {
+    margin-top: 30px;
+  }
+}
+
+.header_wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  border-bottom: 1px solid #292929;
+}
+.navbar {
+  padding: 1.2em;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+
+.nav-link:hover,
+.nav-link:active {
+  box-shadow: inset 0 -1px 1px -1px grey;
+}
+
+.wrapper_brand {
+  position: absolute;
+  padding: 1rem;
+  /* box-shadow: -20px 0px 0 -17px, 0px -20px 0 -17px, 20px 0px 0 -17px,
+    0px 20px 0 -17px, 0 0 0 1px #ffffff; */
+
+  box-shadow: -20px 0px 0px -17px rgba(54, 54, 54, 1),
+    0px -20px 0px -17px rgba(54, 54, 54, 1),
+    20px 0px 0px -17px rgba(54, 54, 54, 1), 0px 20px 0 -17px rgba(54, 54, 54, 1),
+    0px 0px 0px 0.5px #ffffff;
+}
+
+@media (max-width: 800px) {
+  .navbar-brand img {
+    width: 200px;
+    height: 30px;
+  }
+}
+
+.app {
+  background: url(/textTasks/wordpress-savigor/wp-content/themes/react_sagirov/static/media/fon.18a755c3.png) center no-repeat;
+  /* height: 100vh;
+  background-size: 100%; */
+}
+
+@media (max-width: 800px) {
+  .app {
+    background-size: auto;
+  }
+}
+
+
+/*# sourceMappingURL=main.chunk.css.map*/

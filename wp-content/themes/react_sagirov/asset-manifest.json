@@ -1,0 +1,23 @@
+{
+  "files": {
+    "static/css/0.chunk.css": "/textTasks/wordpress-savigor/wp-content/themes/react_sagirov/static/css/0.chunk.css",
+    "static/js/0.chunk.js": "/textTasks/wordpress-savigor/wp-content/themes/react_sagirov/static/js/0.chunk.js",
+    "static/css/0.chunk.css.map": "/textTasks/wordpress-savigor/wp-content/themes/react_sagirov/static/css/0.chunk.css.map",
+    "static/js/0.chunk.js.map": "/textTasks/wordpress-savigor/wp-content/themes/react_sagirov/static/js/0.chunk.js.map",
+    "main.css": "/textTasks/wordpress-savigor/wp-content/themes/react_sagirov/static/css/main.chunk.css",
+    "main.js": "/textTasks/wordpress-savigor/wp-content/themes/react_sagirov/static/js/main.chunk.js",
+    "main.css.map": "/textTasks/wordpress-savigor/wp-content/themes/react_sagirov/static/css/main.chunk.css.map",
+    "main.js.map": "/textTasks/wordpress-savigor/wp-content/themes/react_sagirov/static/js/main.chunk.js.map",
+    "runtime-main.js": "/textTasks/wordpress-savigor/wp-content/themes/react_sagirov/static/js/bundle.js",
+    "runtime-main.js.map": "/textTasks/wordpress-savigor/wp-content/themes/react_sagirov/static/js/bundle.js.map",
+    "index.php": "/textTasks/wordpress-savigor/wp-content/themes/react_sagirov/index.php",
+    "static/media/index.css": "/textTasks/wordpress-savigor/wp-content/themes/react_sagirov/static/media/fon.18a755c3.png"
+  },
+  "entrypoints": [
+    "static/js/bundle.js",
+    "static/css/0.chunk.css",
+    "static/js/0.chunk.js",
+    "static/css/main.chunk.css",
+    "static/js/main.chunk.js"
+  ]
+}

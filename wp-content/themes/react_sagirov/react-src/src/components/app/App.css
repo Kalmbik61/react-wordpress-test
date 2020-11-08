@@ -1,0 +1,11 @@
+.app {
+  background: url("./fon.png") center no-repeat;
+  /* height: 100vh;
+  background-size: 100%; */
+}
+
+@media (max-width: 800px) {
+  .app {
+    background-size: auto;
+  }
+}

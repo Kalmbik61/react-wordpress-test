@@ -1,0 +1,16 @@
+.wrapp_header {
+  background: linear-gradient(to right, rgba(255, 255, 255, 1), #ff3700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: table;
+  font-weight: 450;
+}
+
+.wrapp_header h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.wrapp_btn {
+  padding-top: 5em;
+}

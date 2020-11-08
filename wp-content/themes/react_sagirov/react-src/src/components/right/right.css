@@ -1,0 +1,39 @@
+.big_text span {
+  font-size: small;
+}
+.big_text {
+  color: white;
+  font-weight: 700;
+  margin: 0;
+}
+.wrapper_right {
+  color: grey;
+}
+
+div p {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.info_text {
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(102, 102, 102, 0.1)
+  );
+  /* margin: 0.5em; */
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  transition: 1s;
+  vertical-align: middle;
+}
+
+.info_text:hover,
+.info_text:active {
+  background: linear-gradient(
+    to right bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(170, 170, 170, 0.1)
+  );
+}
